@@ -27,7 +27,7 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: npm instal7l
+        run: npm install
 
       - name: Build website
         run: npm run build
